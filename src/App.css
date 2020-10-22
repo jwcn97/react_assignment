@@ -1,0 +1,98 @@
+.app {
+  position: absolute;
+  height: 100%;
+}
+
+#loading {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 800;
+  opacity: 0.5;
+}
+
+#progress {
+  position: fixed;
+  padding-left: 50%;
+  padding-top: 30%;
+  z-index: 1000;
+  opacity: 1;
+}
+
+.top-row {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.label {
+  margin-left: 1%;
+  width: 89%;
+}
+
+.next-button {
+  margin: auto;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  background-color: #fad0cd;
+}
+
+.tests {
+  width: 51%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tests > div {
+  width: 100%;
+}
+
+.test-details {
+  display: block;
+}
+
+.chips {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1.5%;
+  font-weight: bold;
+}
+
+.outcomes {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.outcomes > div {
+  margin: 0.3%;
+}
+
+.test_description {
+  margin-top: 0;
+  padding: 1%;
+  width: 45%;
+  background-color: #fad0cd;
+}
+
+.test_description > div {
+  padding-left: 2%;
+}
+
+.traits > * {
+  padding-left: 2%;
+}
+
+.name {
+  font-weight: bold;
+}
